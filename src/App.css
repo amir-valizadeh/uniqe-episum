@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+/*mehran added css*/
+textarea {
+  min-height: 400px;
+  min-width: 1000px;
+}
+.App-header {
+  font-size: 20px;
+}
