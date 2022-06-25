@@ -5,18 +5,21 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        
+        <input className='input' type="text" placeholder='please enter your word' />
+        <br />
+        <input type="number" placeholder='please enter paragraph number' />
+        <br />
+        <button className='btn btn-primary lg' >Generate</button>
+        <br />
+        <br />
+        <div>
+          <p> 
+            your text will be displayed here
+
+          </p>
+
+        </div>
       </header>
     </div>
   );
